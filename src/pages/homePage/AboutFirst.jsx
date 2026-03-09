@@ -47,11 +47,10 @@ const AboutFirst = () => {
 
     return (
         <>
-
 <section className="relative bg-zinc-950 py-20 lg:py-32 px-6 overflow-hidden">
       {/* Subtle Mustard Glow Background Decor */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[#E2B13C]/5 blur-[120px] rounded-full -translate-y-1/2 translate-x-1/3" />
-      
+
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         
         {/* Left Side: Content */}
@@ -65,18 +64,20 @@ const AboutFirst = () => {
           <div className="space-y-4">
             <h2 className="text-[#E2B13C] uppercase tracking-[0.3em] text-sm font-bold flex items-center gap-3">
               <span className="w-12 h-[1px] bg-[#E2B13C]"></span>
-              Foundations of Justice
+              Legal & Advisory Excellence
             </h2>
             <h1 className="text-4xl md:text-6xl font-serif font-bold text-white leading-tight">
-              Defending Your Rights With <br />
+              Case Matters: Tailored <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#E2B13C] to-[#c4921d]">
-                Uncompromising Integrity.
+                Outcome-Oriented Solutions.
               </span>
             </h1>
           </div>
 
-          <p className="text-zinc-400 text-lg md:text-xl leading-relaxed max-w-xl">
-            Our firm stands as a beacon of legal excellence, navigating the complexities of modern law with a heritage of success. We provide strategic counsel and aggressive representation, ensuring that your interests are protected at every stage of the legal process.
+          <p className="text-zinc-400 text-lg leading-relaxed max-w-xl">
+            We bring decades of experience across arbitration, contract management, and litigation. 
+            By combining deep subject-matter expertise with a structured, detail-driven approach, 
+            we ensure every case is supported by strong factual and legal foundations.
           </p>
 
           <div className="grid grid-cols-2 gap-6 pt-4">
@@ -90,7 +91,7 @@ const AboutFirst = () => {
 
           <div className="pt-6">
             <button className="group relative px-8 py-4 bg-[#E2B13C] text-black font-bold uppercase tracking-widest text-xs transition-all hover:bg-white overflow-hidden">
-              <span className="relative z-10">Schedule a Consultation</span>
+              <span className="relative z-10">Consult Our Experts</span>
               <div className="absolute inset-0 bg-white translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
             </button>
           </div>
@@ -108,7 +109,7 @@ const AboutFirst = () => {
           <div className="relative z-10 rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
             <img 
               src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&q=80&w=1200" 
-              alt="Law Office" 
+              alt="Case Matters Legal Office" 
               className="w-full h-[400px] md:h-[600px] object-cover grayscale-[30%] hover:grayscale-0 transition-all duration-1000"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent opacity-60"></div>
@@ -120,8 +121,8 @@ const AboutFirst = () => {
             transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
             className="absolute -bottom-10 -left-10 z-20 hidden md:block p-8 bg-zinc-900 border border-[#E2B13C]/30 shadow-2xl rounded-xl"
           >
-            <p className="text-[#E2B13C] text-4xl font-serif font-bold italic leading-none">25+</p>
-            <p className="text-white/60 text-xs uppercase tracking-widest mt-2">Years of Legal <br /> Winning Heritage</p>
+            <p className="text-[#E2B13C] text-4xl font-serif font-bold italic leading-none">Decades</p>
+            <p className="text-white/60 text-xs uppercase tracking-widest mt-2">Of Specialized <br /> Legal Experience</p>
           </motion.div>
 
           {/* Mustard Accent Frame */}

@@ -114,10 +114,10 @@ const Home = () => {
           <div className="w-[1px] h-12 bg-gradient-to-b from-amber-500 to-transparent" />
         </motion.div>
       </section>
-
+      <AboutSecond />
       {/* Other Sections */}
       <AboutFirst />
-      <AboutSecond />
+      
       <Services />
       <Faq />
       <LawExpandingLayout />

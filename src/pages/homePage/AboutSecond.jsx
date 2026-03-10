@@ -75,11 +75,11 @@ const AboutSecond = () => {
     <main ref={container} className="relative min-h-screen w-full overflow-hidden bg-zinc-950 font-sans pt-20">
       
       {/* Background Image */}
-      <img
+      {/* <img
         src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80"
         alt="Legal Office Architecture"
         className="absolute inset-0 h-full w-full object-cover opacity-30"
-      />
+      /> */}
 
       <div className="absolute inset-0 bg-gradient-to-b from-zinc-950/80 via-zinc-950/60 to-zinc-950" />
 

@@ -7,12 +7,12 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
 import expertImage from '../../assets/homeAssets/expert-abrivation.png'
 
-const highlights = [
-    { icon: <Scale size={24} />, title: "Expert Litigation" },
-    { icon: <ShieldCheck size={24} />, title: "Risk Advisory" },
-    { icon: <Award size={24} />, title: "Certified Excellence" },
-    { icon: <Landmark size={24} />, title: "Corporate Law" },
-  ];
+// const highlights = [
+//     { icon: <Scale size={24} />, title: "Expert Litigation" },
+//     { icon: <ShieldCheck size={24} />, title: "Risk Advisory" },
+//     { icon: <Award size={24} />, title: "Certified Excellence" },
+//     { icon: <Landmark size={24} />, title: "Corporate Law" },
+//   ];
 
 
 
@@ -47,14 +47,12 @@ const AboutFirst = () => {
 
     return (
         <>
-<section className="relative bg-zinc-950 py-20 lg:py-32 px-6 overflow-hidden">
-      {/* Subtle Mustard Glow Background Decor */}
-      <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[#E2B13C]/5 blur-[120px] rounded-full -translate-y-1/2 translate-x-1/3" />
+{/* <section className="relative bg-zinc-950 py-20 lg:py-32 px-6 overflow-hidden">
+       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[#E2B13C]/5 blur-[120px] rounded-full -translate-y-1/2 translate-x-1/3" />
 
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         
-        {/* Left Side: Content */}
-        <motion.div 
+         <motion.div 
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
@@ -97,16 +95,14 @@ const AboutFirst = () => {
           </div>
         </motion.div>
 
-        {/* Right Side: Visual Layout */}
-        <motion.div 
+         <motion.div 
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
           className="relative"
         >
-          {/* Main Image Wrapper */}
-          <div className="relative z-10 rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
+           <div className="relative z-10 rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
             <img 
               src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&q=80&w=1200" 
               alt="Case Matters Legal Office" 
@@ -115,8 +111,7 @@ const AboutFirst = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent opacity-60"></div>
           </div>
 
-          {/* Decorative Floating Card */}
-          <motion.div 
+           <motion.div 
             animate={{ y: [0, -20, 0] }}
             transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
             className="absolute -bottom-10 -left-10 z-20 hidden md:block p-8 bg-zinc-900 border border-[#E2B13C]/30 shadow-2xl rounded-xl"
@@ -125,30 +120,25 @@ const AboutFirst = () => {
             <p className="text-white/60 text-xs uppercase tracking-widest mt-2">Of Specialized <br /> Legal Experience</p>
           </motion.div>
 
-          {/* Mustard Accent Frame */}
-          <div className="absolute -top-6 -right-6 w-full h-full border-2 border-[#E2B13C]/20 rounded-2xl z-0 pointer-events-none"></div>
+           <div className="absolute -top-6 -right-6 w-full h-full border-2 border-[#E2B13C]/20 rounded-2xl z-0 pointer-events-none"></div>
         </motion.div>
 
       </div>
-    </section>
+    </section> */}
         
         <div id="about" ref={container} className="relative w-full h-screen overflow-hidden bg-black font-sans">
 
-            {/* --- FIRST SECTION: CORPORATE LAW --- */}
-            <div className="panel-wrapper absolute inset-0 z-10 w-full h-full overflow-hidden">
-  {/* Background Image Block */}
-  <div className="absolute inset-0 w-full h-full">
+             <div className="panel-wrapper absolute inset-0 z-10 w-full h-full overflow-hidden">
+   <div className="absolute inset-0 w-full h-full">
     <img 
       src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=2070&auto=format&fit=crop" 
       alt="Legal Background"
       className="w-full h-full object-cover"
     />
-    {/* Dark Gradient Overlay for Readability */}
-    <div className="absolute inset-0 bg-black/80 backdrop-blur-[2px]"></div>
+     <div className="absolute inset-0 bg-black/80 backdrop-blur-[2px]"></div>
   </div>
 
-  {/* Content Section */}
-  <section className="relative h-screen w-full flex flex-col items-center justify-center text-white text-center px-6">
+   <section className="relative h-screen w-full flex flex-col items-center justify-center text-white text-center px-6">
     <div className="max-w-4xl z-20">
       <h1 className="text-5xl md:text-7xl lg:text-8xl font-black uppercase tracking-tighter leading-none">
         Why Choose <span className="text-yellow-500">Case Matters?</span>
@@ -159,15 +149,12 @@ const AboutFirst = () => {
         We transform complex legal challenges into practical, effective commercial solutions.
       </p>
 
-      {/* Optional: Decorative Gold Line */}
-      <div className="mt-10 w-24 h-1 bg-yellow-500 mx-auto rounded-full shadow-[0_0_15px_rgba(234,179,8,0.5)]"></div>
+       <div className="mt-10 w-24 h-1 bg-yellow-500 mx-auto rounded-full shadow-[0_0_15px_rgba(234,179,8,0.5)]"></div>
     </div>
   </section>
 </div>
 
-            {/* --- SECOND SECTION: CRIMINAL DEFENSE --- */}
-           {/* --- SECOND SECTION: STRATEGIC PREVENTION --- */}
-<div className="panel-wrapper absolute inset-0 z-20 w-full h-full overflow-hidden">
+ <div className="panel-wrapper absolute inset-0 z-20 w-full h-full overflow-hidden">
     <div className="absolute inset-0 w-full h-full">
         <img 
             src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070&auto=format&fit=crop" 
